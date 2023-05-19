@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lexend', sans-serif;;
+    color: #BBBBBB; 
+
+    background-color: #333333;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.top {
+    background-color: #333333;
+    overflow: auto;
+
+    box-shadow: 0 0 70px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation {
+    color: #70737C
+}
+
+.navigation a {
+    padding: 2px 15px;
+    border-right: solid 2px #454545;
+
+    transition: 0.15s ease-in-out color;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    color: #BBBBBB
+}
+
+.navigation a:last-child {
+    border: none;
+}
+
+.adjusted-content {
+    width: 80%;
+}
+
+.content {
+    overflow: auto;
+    min-height: 100vh;
+
+}
+
+.form-control,
+.div-field {
+    color: inherit;
+
+    background-color: #272727;
+    box-shadow: 0 0 15px 2px #1d1d1d inset;
+    border: solid 2px #454545;
+    border-radius: 15px;
+}
+
+.form-control[type=file]::file-selector-button {
+    display: none;
+}
+
+.form-control:focus {
+    color: inherit;
+
+    background: none;
+    box-shadow: none;
+    border-color: #70737C;
+    
+}   
+
+.form-submit {
+    color: #333333;
+    background-color: #EE7700;
+    border: solid 2px #EE7700;
+    border-radius: 1000px;
+    padding: 10px 30px;
+
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.form-submit:hover {
+    background-color: transparent;
+    color: #EE7700
+}
